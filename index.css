@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;    
+}
+.container{
+    color: black;
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.container h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.box input{
+    width: 60%;
+    border: none;
+    outline: none;
+    margin: 10px 0px;
+    font-size:15px;
+    padding: 3px 0px;
+    background: none;
+}
+.btn{
+    width: 20%;
+    border: none;
+    outline: none;
+    margin: 0px 12px;
+    font-size:15px;
+    margin-top:8%;
+    cursor: pointer;
+    padding: 3px 0px;
+    background: none;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.btn:hover{
+background-color:rgb(188, 188, 254);
+}
+.box i{
+    float: left;
+    width: 35px;
+    text-align: center;
+    margin: 12px 0px;
+    padding:0px 12px;
+    color: white;
+}
